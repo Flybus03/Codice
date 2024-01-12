@@ -89,7 +89,7 @@
   font-size: 30px;
   letter-spacing: 0;
   line-height: normal;
-  border: 1px solid black;
+  border: 1px;
   width: 70px;
   overflow: hidden;
   white-space: nowrap;
@@ -246,7 +246,7 @@
 /* <><------  HOME-utente-anonimo ------>><> */
 
 /* HEADER DIVERSO SOLO PER LA HOME CON UTENTE ANONIMO*/
-.HOME-utente-anonimo .text-wrapper-home {
+.header-special .text-wrapper-home {
   position: relative;
   width: 125px;
   margin-top: -1px;
@@ -257,7 +257,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
-.HOME-utente-anonimo .text-wrapper-contattaci {
+.header-special .text-wrapper-contattaci {
   position: relative;
   width: 185px;
   margin-top: -1px;
@@ -270,7 +270,7 @@
   letter-spacing: 0;
   line-height: normal;
 }
-.HOME-utente-anonimo .text-wrapper-staff {
+.header-special .text-wrapper-staff {
   position: relative;
   width: 268px;
   margin-top: -1px;
@@ -283,16 +283,16 @@
   letter-spacing: 0;
   line-height: normal;
 }
-.HOME-utente-anonimo .text-wrapper-prenota{
+.header-special .text-wrapper-prenota{
   content: "";
 }
-.HOME-utente-anonimo .text-wrapper-area-personale{
+.header-special .text-wrapper-area-personale{
   content: "";
 }
 
 /* <--------------------------------------------------> */
 
-.HOME-utente-anonimo {
+.home {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -300,7 +300,7 @@
   width: 100%;
 }
 
-.HOME-utente-anonimo .div {
+.home .div {
   background-color: #ffffff;
   overflow: hidden;
   width: 1920px;
@@ -308,7 +308,7 @@
   position: relative;
 }
 
-.HOME-utente-anonimo .overlap {
+.home .overlap {
   position: absolute;
   width: 1926px;
   height: 2163px;
@@ -316,7 +316,7 @@
   left: 0;
 }
 
-.HOME-utente-anonimo .onde {
+.home .onde {
   position: absolute;
   width: 1920px;
   height: 1902px;
@@ -324,7 +324,7 @@
   left: 0;
 }
 
-.HOME-utente-anonimo .testimonials {
+.home .testimonials {
   position: absolute;
   width: 985px;
   height: 257px;
@@ -332,7 +332,7 @@
   left: 470px;
 }
 
-.HOME-utente-anonimo .group {
+.home .group {
   position: absolute;
   width: 121px;
   height: 50px;
@@ -340,7 +340,7 @@
   left: 429px;
 }
 
-.HOME-utente-anonimo .text-wrapper {
+.home .text-wrapper {
   position: absolute;
   top: 153px;
   left: 400px;
@@ -354,7 +354,7 @@
   white-space: nowrap;
 }
 
-.HOME-utente-anonimo .p {
+.home .p {
   position: absolute;
   top: 98px;
   left: 0;
@@ -367,7 +367,7 @@
   line-height: normal;
 }
 
-.HOME-utente-anonimo .text-wrapper-2 {
+.home .text-wrapper-2 {
   position: absolute;
   top: 0;
   left: 307px;
@@ -379,7 +379,7 @@
   line-height: normal;
 }
 
-.HOME-utente-anonimo .rectangle-2 {
+.home .rectangle-2 {
   position: absolute;
   width: 1920px;
   height: 1080px;
@@ -388,7 +388,7 @@
   background-color: #14274a80;
 }
 
-.HOME-utente-anonimo .carosello {
+.home .carosello {
   width: 1570px;
   height: 564px;
   top: 747px;
@@ -396,7 +396,7 @@
   left: 178px;
 }
 
-.HOME-utente-anonimo .overlap-group-wrapper {
+.home .overlap-group-wrapper {
   position: absolute;
   width: 658px;
   height: 486px;
@@ -404,13 +404,13 @@
   left: 28px;
 }
 
-.HOME-utente-anonimo .overlap-group {
+.home .overlap-group {
   position: relative;
   width: 654px;
   height: 486px;
 }
 
-.HOME-utente-anonimo .last-thing-i {
+.home .last-thing-i {
   position: absolute;
   width: 519px;
   top: 191px;
@@ -424,7 +424,7 @@
   line-height: 40px;
 }
 
-.HOME-utente-anonimo .text-wrapper-3 {
+.home .text-wrapper-3 {
   position: absolute;
   width: 654px;
   top: 0;
@@ -437,7 +437,7 @@
   line-height: normal;
 }
 
-.HOME-utente-anonimo .andrew-ruiz-fmz {
+.home .andrew-ruiz-fmz {
   position: absolute;
   width: 871px;
   height: 572px;
@@ -446,7 +446,7 @@
   object-fit: cover;
 }
 
-.HOME-utente-anonimo .line {
+.home .line {
   position: absolute;
   width: 2px;
   height: 518px;
@@ -454,7 +454,7 @@
   left: -1px;
 }
 
-.HOME-utente-anonimo .carosello-2 {
+.home .carosello-2 {
   width: 1572px;
   height: 579px;
   top: 95px;
@@ -462,7 +462,7 @@
   left: 178px;
 }
 
-.HOME-utente-anonimo .div-wrapper {
+.home .div-wrapper {
   position: absolute;
   width: 332px;
   height: 82px;
@@ -470,7 +470,7 @@
   left: 28px;
 }
 
-.HOME-utente-anonimo .text-wrapper-4 {
+.home .text-wrapper-4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -482,7 +482,7 @@
   line-height: normal;
 }
 
-.HOME-utente-anonimo .overlap-2 {
+.home .overlap-2 {
   position: absolute;
   width: 874px;
   height: 587px;
@@ -490,7 +490,7 @@
   left: 700px;
 }
 
-.HOME-utente-anonimo .steven-ungermann {
+.home .steven-ungermann {
   position: absolute;
   width: 864px;
   height: 574px;
@@ -498,7 +498,7 @@
   left: 5px;
 }
 
-.HOME-utente-anonimo .rectangle {
+.home .rectangle {
   position: absolute;
   width: 874px;
   height: 587px;
@@ -507,7 +507,7 @@
   object-fit: cover;
 }
 
-.HOME-utente-anonimo .img {
+.home .img {
   position: absolute;
   width: 2px;
   height: 351px;
@@ -515,7 +515,7 @@
   left: -1px;
 }
 
-.HOME-utente-anonimo .there-she-stood-in {
+.home .there-she-stood-in {
   position: absolute;
   width: 564px;
   top: 195px;
@@ -529,7 +529,7 @@
   line-height: 40px;
 }
 
-.HOME-utente-anonimo .overlap-4 {
+.home .overlap-4 {
   position: absolute;
   width: 1920px;
   height: 1080px;
@@ -540,7 +540,7 @@
 }
 
 /* BOTTONI */
-.HOME-utente-anonimo .login {
+.home .login {
   position: absolute;
   width: 779px;
   height: 595px;
@@ -548,7 +548,7 @@
   left: 573px;
 }
 
-.HOME-utente-anonimo .text-wrapper-buttons {
+.home .text-wrapper-buttons {
   position: relative;
   width: 218px;
   height: 40px;
@@ -563,7 +563,7 @@
   line-height:normal
 }
 
-.HOME-utente-anonimo .bottone-LOGIN {
+.home .bottone-LOGIN {
   left: 35px;
   position: absolute;
   width: 218px;
@@ -579,11 +579,11 @@
   -o-transition: 0.5s;
 }
 
-.HOME-utente-anonimo .bottone-LOGIN:hover{
+.home .bottone-LOGIN:hover{
   scale: 120%;
 }
 
-.HOME-utente-anonimo .bottone-REGISTER {
+.home .bottone-REGISTER {
   left: 390px;
   position: absolute;
   width: 218px;
@@ -599,11 +599,11 @@
   -o-transition: 0.5s;
 }
 
-.HOME-utente-anonimo .bottone-REGISTER:hover{
+.home .bottone-REGISTER:hover{
   scale: 120%;
 }
 
-.HOME-utente-anonimo .hotel-california-2 {
+.home .hotel-california-2 {
   position: absolute;
   width: 779px;
   height: 390px;
@@ -616,7 +616,7 @@
 /* <><------ INIZIO HOME-utente-loggato ------>><> */
 
 
-.home-utente-loggato .bentornato {
+.home .bentornato {
   position: absolute;
   width: 818px;
   height: 599px;
@@ -624,23 +624,27 @@
   left: 545px;
 }
 
-.home-utente-loggato .bottone-prenota {
+.home .bottone-prenota {
   position: absolute;
   width: 369px;
   height: 148px;
   top: 451px;
   left: 232px;
+  background-color: #E0B973;
+  border: none;
+  border-radius: 12px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
-.home-utente-loggato .overlap-group-2 {
-  position: relative;
-  width: 367px;
-  height: 148px;
-  background-image: url(./img/home/rectangle-1090.svg);
-  background-size: 100% 100%;
+.home .bottone-prenota:hover{
+  scale: 110%;
 }
 
-.home-utente-loggato .calendario-img {
+.home .calendario-img {
   position: absolute;
   width: 78px;
   height: 71px;
@@ -648,11 +652,11 @@
   left: 26px;
 }
 
-.home-utente-loggato .prenota-una-stanza {
+.home .prenota-una-stanza {
   position: absolute;
   width: 263px;
   height: 148px;
-  top: 0;
+  top: 35px;
   left: 104px;
   font-family: "Montserrat", Helvetica;
   font-weight: 700;
@@ -663,7 +667,7 @@
   line-height: normal;
 }
 
-.home-utente-loggato .overlap-5 {
+.home- .overlap-5 {
   position: absolute;
   width: 814px;
   height: 357px;
@@ -671,7 +675,7 @@
   left: 0;
 }
 
-.home-utente-loggato .USER {
+.home .USER {
   position: absolute;
   width: 814px;
   height: 208px;
@@ -686,7 +690,7 @@
   line-height: normal;
 }
 
-.home-utente-loggato .text-wrapper-11 {
+.home .text-wrapper-11 {
   position: absolute;
   width: 640px;
   height: 223px;
