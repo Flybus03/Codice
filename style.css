@@ -55,7 +55,7 @@
   position: relative;
   width: 153px;
   margin-top: -1px;
-  margin-left: -22px;
+  margin-left: -1px;
   text-shadow: 0px 4px 4px #00000040;
   font-family: "Montserrat", Helvetica;
   font-weight: 500;
@@ -67,7 +67,7 @@
 .header .text-wrapper-contattaci {
   position: relative;
   width: 185px;
-  margin-top: -1.5px;
+  margin-top: -1px;
   text-shadow: 0px 4px 4px #00000040;
   -webkit-text-stroke: 0.5px #ffffff;
   font-family: "Montserrat", Helvetica;
@@ -80,7 +80,7 @@
 .header .text-wrapper-area-personale {
   position: relative;
   width: 268px;
-  margin-top: -2px;
+  margin-top: -1px;
   text-shadow: 0px 4px 4px #00000040;
   -webkit-text-stroke: 1px #ffffff;
   font-family: "Montserrat", Helvetica;
@@ -89,7 +89,10 @@
   font-size: 30px;
   letter-spacing: 0;
   line-height: normal;
-  /*TODO aggiungere testo in unica riga*/
+  border: 1px solid black;
+  width: 70px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .header .LOGO-wrapper {
   position: absolute;
@@ -257,7 +260,7 @@
 .HOME-utente-anonimo .text-wrapper-contattaci {
   position: relative;
   width: 185px;
-  margin-top: -1.5px;
+  margin-top: -1px;
   text-shadow: 0px 4px 4px #00000040;
   -webkit-text-stroke: 0.5px #ffffff;
   font-family: "Montserrat", Helvetica;
@@ -270,7 +273,7 @@
 .HOME-utente-anonimo .text-wrapper-staff {
   position: relative;
   width: 268px;
-  margin-top: -2px;
+  margin-top: -1px;
   text-shadow: 0px 4px 4px #00000040;
   -webkit-text-stroke: 1px #ffffff;
   font-family: "Montserrat", Helvetica;
