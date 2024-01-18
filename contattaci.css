@@ -276,6 +276,7 @@ button {
 }
 .invia:hover {
   scale: 120%;
+  cursor: pointer;
 }
 .br {
   position: relative;

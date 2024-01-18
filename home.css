@@ -416,6 +416,7 @@
 
 .home .bottone-LOGIN:hover{
   scale: 120%;
+  cursor: pointer;
 }
 
 .home .bottone-REGISTER {
@@ -436,6 +437,7 @@
 
 .home .bottone-REGISTER:hover{
   scale: 120%;
+  cursor: pointer;
 }
 
 .home .hotel-california-2 {
