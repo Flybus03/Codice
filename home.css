@@ -1,0 +1,545 @@
+/* <> Questo file css contiene le parti relative alle pagine home (utente anonimo e utente loggato) <> */
+
+/* TODO:  Sistema slider orizzontale non so pk è rotto */
+
+/* <><------  FOOTER HOME PAGE ------>><> */
+
+.footer {
+  position:absolute;
+  width: 1920px;
+  height: 321px;
+  top: 2927px;
+  background-color: transparent;
+}
+.footer .overlap-3 {
+  position: relative;
+  width: 1920px;
+  height: 321px;
+  background-image: url(img/footer/footer.svg);
+  background-size: 100% 100%;
+}
+.footer .group-2 {
+  position: absolute;
+  width: 131px;
+  height: 86px;
+  top: 141px;
+  left: 1743px;
+}
+.footer .facebook-twitter {
+  position: absolute;
+  width: 84px;
+  top: 0;
+  left: 45px;
+  -webkit-text-stroke: 0.5px #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #f7f7f7;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 31.2px;
+}
+.footer .path {
+  width: 10px;
+  height: 19px;
+  top: 3px;
+  position: absolute;
+  left: 0;
+}
+.footer .path-2 {
+  width: 19px;
+  height: 15px;
+  top: 37px;
+  position: absolute;
+  left: 0;
+}
+.footer .path-3 {
+  width: 19px;
+  height: 19px;
+  top: 67px;
+  position: absolute;
+  left: 0;
+}
+.footer .element-vicolo-dello {
+  position: absolute;
+  top: 161px;
+  left: 1392px;
+  -webkit-text-stroke: 0.1px #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.footer .hotel-california {
+  position: absolute;
+  width: 266px;
+  height: 132px;
+  top: 126px;
+  left: 50px;
+  object-fit: cover;
+}
+.footer .element-sunset-blvd {
+  position: absolute;
+  top: 165px;
+  left: 386px;
+  -webkit-text-stroke: 0.1px #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.footer .group-3 {
+  position: absolute;
+  width: 131px;
+  height: 86px;
+  top: 144px;
+  left: 732px;
+}
+.footer .text-wrapper-5 {
+  position: absolute;
+  width: 220px;
+  top: 120px;
+  left: 1087px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 124.7px;
+  white-space: nowrap;
+}
+.footer .line-2 {
+  position: absolute;
+  width: 1px;
+  height: 196px;
+  top: 94px;
+  left: 970px;
+  object-fit: cover;
+}
+/* <><------  END FOOTER ------>><> */
+
+
+
+/* <><------  HOME-general ------>><> */
+
+.home {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%;
+   /* the bottom margin is the negative value of the footer's height */
+}
+
+.home .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1920px;
+  height: 3243px;
+  position: relative;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 1920px;
+  height: 2163px;
+  top: 1080px;
+  left: 0;
+}
+
+.home .onde {
+  position: absolute;
+  width: 1920px;
+  height: 1902px;
+  top: 0;
+  left: 0;
+}
+
+.home .testimonials {
+  position: absolute;
+  width: 985px;
+  height: 257px;
+  top: 1445px;
+  left: 470px;
+}
+
+.home .group {
+  position: absolute;
+  width: 121px;
+  height: 50px;
+  top: 207px;
+  left: 429px;
+}
+
+.home .text-wrapper {
+  position: absolute;
+  top: 153px;
+  left: 400px;
+  -webkit-text-stroke: 0.2px #14274a;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #14274a;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .p {
+  position: absolute;
+  top: 98px;
+  left: 0;
+  -webkit-text-stroke: 0.5px #14274a;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #14274a;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 307px;
+  font-family: "Adamina", Helvetica;
+  font-weight: 400;
+  color: #14274a;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .rectangle-2 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-color: #14274a80;
+}
+
+.home .carosello {
+  width: 1570px;
+  height: 564px;
+  top: 747px;
+  position: absolute;
+  left: 178px;
+}
+
+.home .overlap-group-wrapper {
+  position: absolute;
+  width: 658px;
+  height: 486px;
+  top: 25px;
+  left: 28px;
+}
+
+.home .overlap-group {
+  position: relative;
+  width: 654px;
+  height: 486px;
+}
+
+.home .last-thing-i {
+  position: absolute;
+  width: 519px;
+  top: 191px;
+  left: 0;
+  -webkit-text-stroke: 0.3px #14274a;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #14274a;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.home .text-wrapper-3 {
+  position: absolute;
+  width: 654px;
+  top: 0;
+  left: 0;
+  font-family: "Adamina", Helvetica;
+  font-weight: 400;
+  color: #14274a;
+  font-size: 60px;
+  letter-spacing: 1.2px;
+  line-height: normal;
+}
+
+.home .andrew-ruiz-fmz {
+  position: absolute;
+  width: 871px;
+  height: 572px;
+  top: 0;
+  left: 703px;
+  object-fit: cover;
+}
+
+.home .line {
+  position: absolute;
+  width: 2px;
+  height: 518px;
+  top: 25px;
+  left: -1px;
+}
+
+.home .carosello-2 {
+  width: 1572px;
+  height: 579px;
+  top: 95px;
+  position: absolute;
+  left: 178px;
+}
+
+.home .div-wrapper {
+  position: absolute;
+  width: 332px;
+  height: 82px;
+  top: 108px;
+  left: 28px;
+}
+
+.home .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Adamina", Helvetica;
+  font-weight: 400;
+  color: #14274a;
+  font-size: 60px;
+  letter-spacing: 1.2px;
+  line-height: normal;
+}
+
+.home .overlap-2 {
+  position: absolute;
+  width: 874px;
+  height: 587px;
+  top: 0;
+  left: 700px;
+}
+
+.home .steven-ungermann {
+  position: absolute;
+  width: 864px;
+  height: 574px;
+  top: 4px;
+  left: 5px;
+}
+
+.home .rectangle {
+  position: absolute;
+  width: 874px;
+  height: 587px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home .img {
+  position: absolute;
+  width: 2px;
+  height: 351px;
+  top: 108px;
+  left: -1px;
+}
+
+.home .there-she-stood-in {
+  position: absolute;
+  width: 564px;
+  top: 195px;
+  left: 28px;
+  -webkit-text-stroke: 0.3px #14274a;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #14274a;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.home .overlap-4 {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-image: url(img/index/immagine-home.png);
+  background-size: 100% 100%;
+}
+
+/* BOTTONI */
+.home .login {
+  position: absolute;
+  width: 779px;
+  height: 595px;
+  top: 185px;
+  left: 573px;
+}
+
+.home .text-wrapper-buttons {
+  position: relative;
+  width: 218px;
+  height: 40px;
+  top: 0;
+  left: 0;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 33px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height:normal
+}
+
+.home .bottone-LOGIN {
+  left: 35px;
+  position: absolute;
+  width: 218px;
+  height: 108px;
+  top: 458px;
+  background-color: #E0B973;
+  border: none;
+  border-radius: 12px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.home .bottone-LOGIN:hover{
+  scale: 120%;
+}
+
+.home .bottone-REGISTER {
+  left: 390px;
+  position: absolute;
+  width: 218px;
+  height: 108px;
+  top: 458px;
+  background-color: #E0B973;
+  border: none;
+  border-radius: 12px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.home .bottone-REGISTER:hover{
+  scale: 120%;
+}
+
+.home .hotel-california-2 {
+  position: absolute;
+  width: 779px;
+  height: 390px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+
+/* <><------  HOME-utente-loggato ------>><> */
+
+
+.home .bentornato {
+  position: absolute;
+  width: 818px;
+  height: 599px;
+  top: 143px;
+  left: 545px;
+}
+
+.home .bottone-prenota {
+  position: absolute;
+  width: 369px;
+  height: 148px;
+  top: 451px;
+  left: 232px;
+  background-color: #E0B973;
+  border: none;
+  border-radius: 12px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.home .bottone-prenota:hover{
+  scale: 110%;
+}
+
+.home .calendario-img {
+  position: absolute;
+  width: 78px;
+  height: 71px;
+  top: 39px;
+  left: 26px;
+}
+
+.home .prenota-una-stanza {
+  position: absolute;
+  width: 263px;
+  height: 148px;
+  top: 35px;
+  left: 104px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 33px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home- .overlap-5 {
+  position: absolute;
+  width: 814px;
+  height: 357px;
+  top: 0;
+  left: 0;
+}
+
+.home .USER {
+  position: absolute;
+  width: 814px;
+  height: 208px;
+  top: 149px;
+  left: 0;
+  font-family: "Adamina", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .text-wrapper-11 {
+  position: absolute;
+  width: 640px;
+  height: 223px;
+  top: 0;
+  left: 95px;
+  font-family: "Adamina", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+
+

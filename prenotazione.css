@@ -1,0 +1,389 @@
+/* <> Questo file css contiene le parti relative alla pagina di prenotazione <> */
+
+/* TODO: sistemare footer troppo in fondo alla pagina non so pk*/
+
+/* <><------  PRENOTAZIONE  ------>><> */
+.prenotazione {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+  }
+  .prenotazione .div{
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1920px;
+    height: 2543px;
+    position: relative;
+  }
+  .prenotazione .overlap {
+    position: absolute;
+    width: 1920px;
+    height: 170px;
+    top: 0;
+    left: 0;
+  }
+  .prenotazione .onde {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 0;
+    left: 0;
+  }
+  .prenotazione .line {
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    top: 101px;
+    left: 1110px;
+  }
+  .prenotazione .info-camera {
+    position: absolute;
+    width: 1721px;
+    height: 594px;
+    top: 561px;
+    left: 111px;
+  }
+  .prenotazione .info-camera-2 {
+    top: 1216px;
+    left: 115px;
+    position: absolute;
+    width: 1721px;
+    height: 594px;
+  }
+  .prenotazione .info-camera-3 {
+    top: 1871px;
+    left: 111px;
+    position: absolute;
+    width: 1721px;
+    height: 594px;
+  }
+  .prenotazione .selezione {
+    position: absolute;
+    width: 1697px;
+    height: 135px;
+    top: 217px;
+    left: 111px;
+  }
+  .prenotazione .raphael-arrowdown {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 1697px;
+  }
+  .prenotazione .vari-select-wrapper {
+    position: absolute;
+    width: 1697px;
+    height: 135px;
+    top: 0;
+    left: 0;
+    background-color: #16289ed4;
+    border-radius: 50px;
+  }
+  .prenotazione .vari-select {
+    position: relative;
+    width: 1513px;
+    height: 71px;
+    top: 32px;
+    left: 92px;
+  }
+  .prenotazione .calendario {
+    left: 534px;
+    position: absolute;
+    width: 445px;
+    height: 71px;
+    top: 0;
+  }
+  .prenotazione .lol {
+    width: 447px;
+    height: 71px;
+  }
+  .prenotazione .overlap-group-2 {
+    position: relative;
+    width: 445px;
+    height: 71px;
+    background-color: #84ccea;
+    border-radius: 20px;
+  }
+  .prenotazione .check {
+    position: absolute;
+    width: 445px;
+    height: 29px;
+    top: 18px;
+    left: 0;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  .prenotazione .mdi-calendar-outline {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 0;
+    left: 19px;
+  }
+  .prenotazione .lol-wrapper {
+    left: 0;
+    position: absolute;
+    width: 445px;
+    height: 71px;
+    top: 0;
+  }
+  .prenotazione .ospiti {
+    position: absolute;
+    width: 445px;
+    height: 71px;
+    top: 0;
+    left: 1068px;
+    background-color: #84ccea;
+    border-radius: 20px;
+  }
+  .prenotazione .overlap-2 {
+    position: relative;
+    width: 430px;
+    height: 71px;
+    left: 15px;
+  }
+  .prenotazione .text-wrapper-7 {
+    position: absolute;
+    width: 368px;
+    height: 29px;
+    top: 17px;
+    left: 62px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  .prenotazione .ic-twotone-bed {
+    position: absolute;
+    width: 68px;
+    height: 71px;
+    top: 0;
+    left: 0;
+  }
+  .prenotazione .filtri {
+    position: absolute;
+    width: 370px;
+    height: 115px;
+    top: 384px;
+    left: 110px;
+  }
+  .prenotazione .tipo-camera {
+    position: absolute;
+    width: 336px;
+    height: 59px;
+    top: 56px;
+    left: 0;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  .prenotazione .overlap-group-3 {
+    position: relative;
+    width: 282px;
+    height: 59px;
+    top: -1px;
+    left: 33px;
+  }
+  .prenotazione .vector {
+    position: absolute;
+    width: 31px;
+    height: 27px;
+    top: 17px;
+    left: 0;
+  }
+  .prenotazione .text-wrapper-8 {
+    position: absolute;
+    width: 266px;
+    height: 59px;
+    top: 9px;
+    left: 16px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #555555;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .prenotazione .filtri-2 {
+    position: absolute;
+    width: 367px;
+    height: 56px;
+    top: 0;
+    left: 1px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .prenotazione .ordina-per {
+    position: absolute;
+    width: 338px;
+    height: 115px;
+    top: 384px;
+    left: 1472px;
+  }
+  .prenotazione .filtro {
+    position: absolute;
+    width: 336px;
+    height: 59px;
+    top: 56px;
+    left: 0;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  .prenotazione .text-wrapper-9 {
+    position: absolute;
+    width: 305px;
+    height: 56px;
+    top: 0;
+    left: 3px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .overlap-3 {
+    position:absolute;
+    width: 1926px;
+    height: 321px;
+    top: 700px;
+    left: 0;
+    background-color: transparent;
+  }
+  /* <><------  FOOTER  ------>><> */
+
+  .footer {
+    position:bottom;
+    width: 1920px;
+    height: 321px;
+    background-color: transparent;
+  }
+  .footer .overlap-3 {
+    position: relative;
+    width: 1920px;
+    height: 321px;
+    background-image: url(img/footer/footer.svg);
+    background-size: 100% 100%;
+  }
+  .footer .group-2 {
+    position: absolute;
+    width: 131px;
+    height: 86px;
+    top: 141px;
+    left: 1743px;
+  }
+  .footer .facebook-twitter {
+    position: absolute;
+    width: 84px;
+    top: 0;
+    left: 45px;
+    -webkit-text-stroke: 0.5px #ffffff;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #f7f7f7;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+  }
+  .footer .path {
+    width: 10px;
+    height: 19px;
+    top: 3px;
+    position: absolute;
+    left: 0;
+  }
+  .footer .path-2 {
+    width: 19px;
+    height: 15px;
+    top: 37px;
+    position: absolute;
+    left: 0;
+  }
+  .footer .path-3 {
+    width: 19px;
+    height: 19px;
+    top: 67px;
+    position: absolute;
+    left: 0;
+  }
+  .footer .element-vicolo-dello {
+    position: absolute;
+    top: 161px;
+    left: 1392px;
+    -webkit-text-stroke: 0.1px #ffffff;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .footer .hotel-california {
+    position: absolute;
+    width: 266px;
+    height: 132px;
+    top: 126px;
+    left: 50px;
+    object-fit: cover;
+  }
+  .footer .element-sunset-blvd {
+    position: absolute;
+    top: 165px;
+    left: 386px;
+    -webkit-text-stroke: 0.1px #ffffff;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .footer .group-3 {
+    position: absolute;
+    width: 131px;
+    height: 86px;
+    top: 144px;
+    left: 732px;
+  }
+  .footer .text-wrapper-5 {
+    position: absolute;
+    width: 220px;
+    top: 120px;
+    left: 1087px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: 124.7px;
+    white-space: nowrap;
+  }
+  .footer .line-2 {
+    position: absolute;
+    width: 1px;
+    height: 196px;
+    top: 94px;
+    left: 970px;
+    object-fit: cover;
+  }
