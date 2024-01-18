@@ -1,0 +1,479 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.rectangle-header{
+  position: absolute;
+  width: 100%;
+  height: 170px;
+  top: 0px;
+  left: 0px;
+  background: #14274a;
+  z-index: 21;
+}
+
+.main-container {
+  position: relative;
+  width: 1920px;
+  height: 1109px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1920px;
+  height: 385px;
+  margin: 0 0 0 0;
+  background: #14274a;
+  overflow: visible auto;
+}
+.sfondo-header {
+  position: relative;
+  width: 1920px;
+  height: 170px;
+  margin: 0 0 0 0;
+  background: #14274a;
+  z-index: 21;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 256px;
+  height: 60.1%;
+  top: 0;
+  right: 1451px;
+  background: url(./img/contattaci/06cd20e5-d2c6-47f6-b11d-7bdf4b73bb24.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 29;
+}
+.logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 36.24%;
+  top: 29.53%;
+  left: 16.02%;
+  color: #14274a;
+  font-family: Adamina, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 37.03px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 6px;
+  z-index: 31;
+}
+.testo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  gap: 44px;
+  position: absolute;
+  width: 672px;
+  height: 37px;
+  top: 59px;
+  right: 105px;
+  z-index: 23;
+}
+.home {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 37px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.57px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 24;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.prenota {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 37px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36.57px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 25;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.contattaci {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 37px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.57px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 26;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 0.5px #ffffff;
+}
+.area-personale {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 37px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.57px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #ffffff;
+}
+.line {
+  position: absolute;
+  width: 200px;
+  height: 0px;
+  top: 100px;
+  left: 1303px;
+  background: url(./img/contattaci/a02e458e-471d-48aa-837e-b21dc396b45c.png)
+    no-repeat center;
+  background-size: cover;
+  border: 2px solid #ffffff;
+  z-index: 32;
+}
+.contattaci-2 {
+  display: block;
+  position: relative;
+  height: 98px;
+  margin: 26px 0 0 687px;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 97.52px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.siamo-qui-per-te {
+  display: block;
+  position: relative;
+  height: 82px;
+  margin: 96px 0 0 254px;
+  top: 200px;
+  color: #14274a;
+  font-family: Adamina, var(--default-font-family);
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 81.72px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 18;
+}
+.hotel-california {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 1509px;
+  height: 222px;
+  top: 250px;
+  margin: -4px 0 0 254px;
+  color: #14274a;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36.57px;
+  text-align: left;
+  z-index: 19;
+  -webkit-text-stroke: 0.3px #000000;
+}
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 145px;
+  height: 0.399px;
+  margin: 579.02px 0 0 1580px;
+  z-index: 6;
+}
+.rectangle-3 {
+  flex-shrink: 0;
+  position: relative;
+  width: 145px;
+  height: 61px;
+  background: url(./img/contattaci/b52e199b-dbab-45da-8ba8-a478489a8f0a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+}
+.group {
+  flex-shrink: 0;
+  position: absolute;
+  width: 145px;
+  height: 61px;
+  top: 0;
+  left: 0;
+  z-index: 8;
+}
+.invia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 145px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.475px;
+  text-align: center;
+  z-index: 9;
+  background-color: #E0B973;
+  border: none;
+  border-radius: 12px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.invia:hover {
+  scale: 120%;
+}
+.br {
+  position: relative;
+  color: #ffffff;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48.76px;
+  text-align: left;
+}
+.phone-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 670px;
+  height: 108px;
+  top: 67.4%;
+  left: 13.52%;
+  color: #14274a;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 48.76px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 3;
+  overflow: hidden;
+  -webkit-text-stroke: 0.5px #14274a;
+}
+.rectangle-f {
+  position: absolute;
+  width: 570px;
+  height: 318px;
+  top: 645.42px;
+  left: 1167px;
+  background: #ffffff;
+  border: 2px solid rgba(20, 39, 74, 0.5);
+  z-index: 12;
+}
+.sunset-blvd-beverly-hills-ca-e {
+  position: absolute;
+  width: 813px;
+  height: 2.2%;
+  top: 63.4%;
+  left: 13.52%;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 39.773px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 4;
+}
+.nbsp-sunset-blvd-beverly-hills-ca {
+  position: relative;
+  color: #14274a;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48.76px;
+  text-align: left;
+}
+
+.nome-utente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 359px;
+  height: 100%;
+  top: 448px;
+  left: 1150px;
+  color: #000000;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43.884px;
+  text-align: center;
+  z-index: 16;
+}
+
+
+/* <><------  FOOTER  ------>><> */
+
+.footer {
+  position:bottom;
+  width: 1920px;
+  height: 321px;
+  background-color: transparent;
+}
+.footer .overlap-3 {
+  position: relative;
+  width: 1920px;
+  height: 321px;
+  background-image: url(img/footer/footer.svg);
+  background-size: 100% 100%;
+}
+.footer .group-2 {
+  position: absolute;
+  width: 131px;
+  height: 86px;
+  top: 141px;
+  left: 1743px;
+}
+.footer .facebook-twitter {
+  position: absolute;
+  width: 84px;
+  top: 0;
+  left: 45px;
+  -webkit-text-stroke: 0.5px #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #f7f7f7;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 31.2px;
+}
+.footer .path {
+  width: 10px;
+  height: 19px;
+  top: 3px;
+  position: absolute;
+  left: 0;
+}
+.footer .path-2 {
+  width: 19px;
+  height: 15px;
+  top: 37px;
+  position: absolute;
+  left: 0;
+}
+.footer .path-3 {
+  width: 19px;
+  height: 19px;
+  top: 67px;
+  position: absolute;
+  left: 0;
+}
+.footer .element-vicolo-dello {
+  position: absolute;
+  top: 161px;
+  left: 1392px;
+  -webkit-text-stroke: 0.1px #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.footer .hotel-california {
+  position: absolute;
+  width: 266px;
+  height: 132px;
+  top: 126px;
+  left: -200px;
+  object-fit: cover;
+}
+.footer .element-sunset-blvd {
+  position: absolute;
+  top: 165px;
+  left: 386px;
+  -webkit-text-stroke: 0.1px #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.footer .group-3 {
+  position: absolute;
+  width: 131px;
+  height: 86px;
+  top: 144px;
+  left: 732px;
+}
+.footer .text-wrapper-5 {
+  position: absolute;
+  width: 220px;
+  top: 120px;
+  left: 1087px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 0;
+  line-height: 124.7px;
+  white-space: nowrap;
+}
+.footer .line-2 {
+  position: absolute;
+  width: 1px;
+  height: 196px;
+  top: 94px;
+  left: 970px;
+  object-fit: cover;
+}
+

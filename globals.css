@@ -29,12 +29,13 @@ a {
     format("truetype");
 }
 
-
+/* width: 1602px;
+  height: 149px; */
 /* <><------  HEADER ------>><> */
 .header {
   position:absolute;
-  width: 1602px;
-  height: 149px;
+  width: 1920px;
+  height: 170px;
   top: 0;
   left: 213px;
   background-color: transparent;
