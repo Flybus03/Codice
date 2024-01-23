@@ -34,7 +34,7 @@ a {
 /* <><------  HEADER ------>><> */
 .header {
   position:absolute;
-  width: 1920px;
+  width: 100%;
   height: 170px;
   top: 0;
   left: 213px;

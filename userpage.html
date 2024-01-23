@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Adamina:wght@400&display=swap" />
@@ -14,10 +13,10 @@
         <header class="header">
           <div class="testo-header">
             <div class="testo">
-              <li><a class="text-wrapper-home">Home</a></li>
-              <li><a class="text-wrapper-prenota">Prenota</a></li>
-              <li><a class="text-wrapper-contattaci">Contattaci</a></li>
-              <li><a class="text-wrapper-area-personale-bold">Area personale</a></li>
+              <li><a href="home.html" class="text-wrapper-home">Home</a></li>
+              <li><a href="prenotazione.html" class="text-wrapper-prenota">Prenota</a></li>
+              <li><a href="contattaci.html" class="text-wrapper-contattaci">Contattaci</a></li>
+              <li><a href="userpage.html" class="text-wrapper-area-personale-bold">Area personale</a></li>
             </div>
             <div class="LOGO-wrapper">
               <div class="LOGO"><div class="text-wrapper-LOGO">LOGO</div></div>
@@ -28,36 +27,38 @@
       <div class="riquadro">
         <span class="registrazione">Area personale</span>
         <div class="frame">
-          <div class="nome">
-            <span class="nome-2">Nome</span><input class="nome-input" />
-            <div class="rectangle-3"></div>
-            <div class="user-box"></div>
-          </div>
-          <div class="cognome">
-            <span class="cognome-4">Cognome</span
-            ><input class="cognome-input" />
-            <div class="rectangle-5"></div>
-            <div class="user-box-6"></div>
-          </div>
-          <div class="data-di-nascita">
-            <span class="data-di-nascita-7">Data di nascita</span>
-            <div class="rectangle-8"></div>
-            <div class="group">
-              <div class="icon-park-twotone-calendar"></div>
+          <form action="#">
+            <div class="nome">
+              <input class="nome-input" required/><label class="nome-2">Nome</label>
+              <div class="rectangle-3"></div>
+              <div class="user-box"></div>
             </div>
-          </div>
-          <div class="telefono">
-            <span class="telefono-9">Telefono</span>
-            <div class="rectangle-a"></div>
-            <div class="group-b">
-              <div class="icon-park-twotone-phone-telephone"></div>
+            <div class="lollone">space</div>
+            <div class="cognome">
+              <input class="cognome-input" required/><label class="cognome-4">Cognome</label>
+              <div class="rectangle-5"></div>
+              <div class="user-box-6"></div>
             </div>
-          </div>
-          <div class="email">
-            <span class="email-c">Email</span>
-            <div class="rectangle-d"></div>
-            <div class="ic-twotone-mail"></div>
-          </div>
+            <div class="data-di-nascita">
+              <input class="data-input" required/><label class="data-di-nascita-7">Data di nascita</label>
+              <div class="rectangle-8"></div>
+              <div class="group">
+                <div class="icon-park-twotone-calendar"></div>
+              </div>
+            </div>
+            <div class="telefono">
+              <input class="telefono-input" required/><label class="telefono-9">Telefono</label>
+              <div class="rectangle-a"></div>
+              <div class="group-b">
+                <div class="icon-park-twotone-phone-telephone"></div>
+              </div>
+            </div>
+            <div class="email">
+              <input class="email-input" required/><label class="email-c">Email</label>
+              <div class="rectangle-d"></div>
+              <div class="ic-twotone-mail"></div>
+            </div>
+          </form>
         </div>
         <button class="cambia-password">Cambia password</button
         ><button class="elimina-account">Elimina account</button>
