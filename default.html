@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <div class="home">
+    <div id="home" class="home">
       <div class="div">
         <div class="overlap">
           <img class="onde" src="img/index/onde.png" />
@@ -60,10 +60,10 @@
             </div>
           </header>
           <div class="login">
-            <button class="bottone-LOGIN">
+            <button id="openLogin" class="bottone-LOGIN" >
               <div class="text-wrapper-buttons">LOGIN</div>
             </button>
-            <button class="bottone-REGISTER">
+            <button id="openRegister" class="bottone-REGISTER" >
               <div class="text-wrapper-buttons">REGISTER</div>
             </button>
             <img class="hotel-california-2" src="img/index/hotel-california-1.png" />
@@ -96,5 +96,73 @@
         <img class="line-2" src="img/footer/line-9.svg" />
       </div>
     </footer>
+    <div class="formRegister" id="formRegister">
+      <span class="registrazione">Registrazione</span>
+      <btn id="closeRegister" class="close">
+        <img class="cross" src="img/index/close_ring.svg">
+      </btn>
+      <div class="frame" >
+        <form action="#">
+          <div class="nome">
+            <input class="nome-input" required/><label class="label-nome">Nome</label>
+            <div class="rectangle"></div>
+            <div class="user-box"></div>
+          </div>
+          <div class="cognome">
+            <input class="cognome-input" required/><label class="label-cognome">Cognome</label>
+            <div class="rectangle"></div>
+            <div class="user-box"></div>
+          </div>
+          <div class="data-di-nascita">
+            <input class="data-input" required/><label class="label-data-di-nascita">Data di nascita</label>
+            <div class="rectangle"></div>
+            <div class="group">
+              <div class="icon-park-twotone-calendar"></div>
+            </div>
+          </div>
+          <div class="telefono">
+            <input class="telefono-input" required/><label class="label-telefono">Telefono</label>
+            <div class="rectangle"></div>
+            <div class="group-b">
+              <div class="icon-park-twotone-phone-telephone"></div>
+            </div>
+          </div>
+          <div class="email">
+            <input class="email-input" required/><label class="label-email">Email</label>
+            <div class="rectangle"></div>
+            <div class="ic-twotone-mail"></div>
+          </div>
+        </form>
+      </div>
+      <button class="goBack">Già iscritto? Clicca qui</button>
+      <button class="registrati">Registrati</button>
+    </div>
+
+    <div class="wrapperLogin" id="formLogin">
+      <span class="h-login">Login</span>
+      <btn id="closeLogin" class="close">
+        <img class="cross" src="img/index/close_ring.svg">
+      </btn>
+      <div class="formLogin" >
+        <form action="#">
+          <div class="email">
+            <input class="email-input" required/><label class="label-email">Email</label>
+            <div class="rectangle"></div>
+            <div class="ic-twotone-mail"></div>
+          </div>
+          <div class="password">
+            <input class="password-input" required/><label class="label-password">Password</label>
+            <div class="rectangle"></div>
+            <div class="ic-twotone-lock"></div>
+          </div>
+        </form>
+      </div>
+      <button class="accedi">Accedi</button>
+      <span class="forgot-password">Clicca qui per reimpostare la password</span>
+      <button class="go-to-register">Registra un nuovo account</button>
+    </div>
+
+
+    <script src="index.js"></script>
   </body>
 </html>
