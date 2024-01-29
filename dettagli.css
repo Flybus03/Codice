@@ -912,9 +912,7 @@ button {
 
 /* PRENOTAZIONE EFFETTUATA CON SUCCESSO */
 
-/* TODO: change background*/
-/* TODO: aggiungere icone "check" e "error" */
-
+/* TODO: aggiungere la comparsa dei pop-up quando avviene la prenotazione (backend) */
 .prenotazioneEffettuata {
   position: fixed;
   width: 100vh;
@@ -924,7 +922,7 @@ button {
   scale: 90%;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(./img/index/login.svg)    no-repeat center;
+  background: url(./img/dettagli/backgroundOk.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 100;
   overflow: visible auto;
@@ -934,6 +932,7 @@ button {
 
   opacity: 0;
   pointer-events: none;
+
 
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -948,13 +947,20 @@ button {
 }
 
 .prenotazioneEffettuata .check{
+  position: fixed;
+  width: 20%;
+  height: 50%;
+  top: 9%;
+  left: 38%;
+  background: url(./img/dettagli/check.svg)    no-repeat center;
+  background-size: 100% 100%;
   z-index: 101;
 }
 
 .prenotazioneEffettuata .titolo{
   position: fixed;
   width: 75%;
-  height: 30%;
+  height: 70%;
   left: 12%;
   top: 10%;
   color: #16289e;
@@ -973,7 +979,7 @@ button {
   justify-content: center;
   width: 80%;
   height: 8%;
-  top: 67%;
+  top: 63%;
   left: 8%;
   color: #ffffff;
   font-family: Montserrat, var(--default-font-family);
@@ -1015,7 +1021,7 @@ button {
   scale: 90%;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(./img/index/login.svg)    no-repeat center;
+  background: url(./img/dettagli/backgroundError.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 200;
   overflow: visible auto;
@@ -1023,8 +1029,8 @@ button {
   align-items: center;
   justify-content: center;
 
-  opacity: 1;
-  pointer-events: auto;
+  opacity: 0;
+  pointer-events: none;
 
   transition: 0.5s;
   -webkit-transition: 0.5s;
@@ -1039,8 +1045,15 @@ button {
 }
 
 .prenotazioneErrore .error{
+  position: fixed;
+  scale: 90%;
+  width: 20%;
+  height: 50%;
+  top: 2%;
+  left: 38%;
+  background: url(./img/dettagli/error.svg)    no-repeat center;
+  background-size: 100% 100%;
   z-index: 201;
-  
 }
 
 .prenotazioneErrore .titolo{
@@ -1048,7 +1061,7 @@ button {
   width: 75%;
   height: 30%;
   left: 12%;
-  top: 10%;
+  top: 20%;
   color: #16289e;
   font-family: Montserrat, var(--default-font-family);
   font-size: 55px;
@@ -1058,18 +1071,18 @@ button {
   z-index: 202;
 }
 
-/* TODO: perché non è tutto sulla stessa linea?????? */
 .prenotazioneErrore .testo {
   position: fixed;
   width: 75%;
   height: 40%;
   left: 12%;
-  top: 40%;
+  top: 52%;
   color: #000000;
   font-family: Montserrat, var(--default-font-family);
   font-size: 20px;
   font-weight: 500;
   text-align:center;
+  display: inline;
   z-index: 203;
 }
 
@@ -1080,7 +1093,7 @@ button {
   justify-content: center;
   width: 80%;
   height: 8%;
-  top: 67%;
+  top: 70%;
   left: 8%;
   color: #ffffff;
   font-family: Montserrat, var(--default-font-family);
@@ -1104,7 +1117,7 @@ button {
 }
 
 .prenotazioneErrore .ok:hover {
-  background-color:#1d8325;
+  background-color:#a11616;
   border: none;
   color: #ffffff;
   cursor: pointer;
