@@ -28,7 +28,7 @@ button {
   width: auto;
   height: auto;
   margin: 0 auto;
-  background: url(./img/userpage/onde.svg) no-repeat top;
+  background: url(/img/userpage/onde.svg) no-repeat top;
   background-position-y: 170px;
   overflow: hidden;
 }
@@ -47,7 +47,7 @@ button {
   height: 1300px;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(./img/userpage/Riquadro.svg)
+  background: url(/img/userpage/Riquadro.svg)
     no-repeat center;
   background-size: cover;
   z-index: 16;
@@ -125,7 +125,7 @@ button {
   height: 64.94%;
   top: 18.18%;
   left: 1.98%;
-  background: url(./img/userpage/user.png)
+  background: url(/img/userpage/user.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 30;
@@ -172,7 +172,7 @@ button {
   height: 64.94%;
   top: 18.18%;
   left: 1.98%;
-  background: url(./img/userpage/user.png)
+  background: url(/img/userpage/user.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 35;
@@ -226,7 +226,7 @@ button {
   height: 70px;
   top: 0;
   left: 0;
-  background: url(./img/userpage/28148db3-b5b5-4483-8aba-c251ef8d67b3.png)
+  background: url(/img/userpage/28148db3-b5b5-4483-8aba-c251ef8d67b3.png)
     no-repeat center;
   background-size: cover;
   z-index: 41;
@@ -281,7 +281,7 @@ button {
   height: 110%;
   top: 0;
   left: 0;
-  background: url(./img/userpage/da1ccf58-4dcf-44f6-8b28-cef60740e7e8.png)
+  background: url(/img/userpage/da1ccf58-4dcf-44f6-8b28-cef60740e7e8.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 47;
@@ -327,7 +327,7 @@ button {
   height: 68.47%;
   top: 16.67%;
   left: 2.13%;
-  background: url(./img/userpage/2a28e04a-9ee5-4d04-9e63-1f2236d29557.png)
+  background: url(/img/userpage/2a28e04a-9ee5-4d04-9e63-1f2236d29557.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 54;
@@ -482,7 +482,7 @@ button {
   height: 565px;
   top: 0;
   left: 50%;
-  background: url(./img/userpage/7048c47d-a9f1-4925-a2a7-e0b675644cb4.png)
+  background: url(/img/userpage/7048c47d-a9f1-4925-a2a7-e0b675644cb4.png)
     no-repeat center;
   background-size: cover;
   border: 1px solid #000000;
@@ -571,7 +571,7 @@ button {
   height: 54.35%;
   top: 22.83%;
   left: 60.36%;
-  background: url(./img/userpage/353e17d7-0859-422c-b027-c76e50d4a33f.png)
+  background: url(/img/userpage/353e17d7-0859-422c-b027-c76e50d4a33f.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 56;
@@ -582,7 +582,7 @@ button {
   height: 54.35%;
   top: 22.83%;
   left: 4.54%;
-  background: url(./img/userpage/545df111-0d73-4ec3-b679-6d1fa2fdde8f.png)
+  background: url(/img/userpage/545df111-0d73-4ec3-b679-6d1fa2fdde8f.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 57;
@@ -593,7 +593,7 @@ button {
   height: 54.35%;
   top: 22.83%;
   left: 35.85%;
-  background: url(./img/userpage/bbca8dec-a1f4-4000-8af0-2086b0bb16c4.png)
+  background: url(/img/userpage/bbca8dec-a1f4-4000-8af0-2086b0bb16c4.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 58;
@@ -762,7 +762,7 @@ button {
   position: relative;
   width: 1920px;
   height: 321px;
-  background-image: url(img/footer/footer.svg);
+  background-image: url(/img/footer/footer.svg);
   background-size: 100% 100%;
 }
 .footer .group-2 {
@@ -896,7 +896,7 @@ button {
 }
 .data-input {
   position: absolute;
-  width: 1034.732px;
+  width: 904.732px;
   height: 103.274px;
   top: 0;
   left: 119px;
@@ -948,6 +948,18 @@ button {
 }
 .frame input:valid + label{
   visibility: hidden;
+}
+
+.frame input:empty{
+  opacity: 0;
+}
+
+.frame input:focus{
+  opacity: 1;
+}
+
+.frame input:valid{
+  opacity: 1;
 }
 
 @media screen and (max-width: 600px){

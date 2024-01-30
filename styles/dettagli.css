@@ -53,7 +53,7 @@ button {
   height: 91.69%;
   top: 0;
   right: 1451px;
-  background: url(./img/dettagli/53515e94-6f3f-4234-83b5-c9894d2391a4.png)
+  background: url(/img/dettagli/53515e94-6f3f-4234-83b5-c9894d2391a4.png)
     no-repeat center;
   background-size: cover;
   z-index: 9;
@@ -156,7 +156,7 @@ button {
   width: 152px;
   top: 105px;
   left: 1108px;
-  background: url(./img/dettagli/09a06f3f-6d77-48b3-8ae6-e7cb4a16c514.png)
+  background: url(/img/dettagli/09a06f3f-6d77-48b3-8ae6-e7cb4a16c514.png)
     no-repeat center;
   background-size: cover;
   border: 3px solid #ffffff;
@@ -205,7 +205,7 @@ button {
   height: 60.08%;
   top: 0;
   left: 0.12%;
-  background: url(./img/dettagli/21b7787f136f266828187e9b223904bb4ed11497.png)
+  background: url(/img/dettagli/21b7787f136f266828187e9b223904bb4ed11497.png)
     no-repeat center;
   background-size: cover;
   z-index: 18;
@@ -226,7 +226,7 @@ button {
   position: relative;
   width: 74.824px;
   height: 75px;
-  background: url(./img/dettagli/b40da33b-1b8d-41e9-99d9-4ff6639efb74.png)
+  background: url(/img/dettagli/b40da33b-1b8d-41e9-99d9-4ff6639efb74.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 20;
@@ -236,7 +236,7 @@ button {
   position: relative;
   width: 74.824px;
   height: 75px;
-  background: url(./img/dettagli/d92d73b4-c374-419d-8ee2-0dd3236d9a71.png)
+  background: url(/img/dettagli/d92d73b4-c374-419d-8ee2-0dd3236d9a71.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 19;
@@ -246,7 +246,7 @@ button {
   width: 125.704px;
   height: 20px;
   margin: 206px 0 0 352.17px;
-  background: url(./img/dettagli/0de78861-f0b6-4c03-8984-b8b0741220c7.png)
+  background: url(/img/dettagli/0de78861-f0b6-4c03-8984-b8b0741220c7.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 21;
@@ -256,7 +256,7 @@ button {
   width: 1693px;
   top: 566px;
   left: 0;
-  background: url(./img/dettagli/d981f8f3-aa83-41dd-99f0-53f1b8946cdd.png)
+  background: url(/img/dettagli/d981f8f3-aa83-41dd-99f0-53f1b8946cdd.png)
     no-repeat center;
   background-size: cover;
   border: 5px solid #16289e;
@@ -268,7 +268,7 @@ button {
   height: 252px;
   top: 580px;
   left: 24px;
-  background: url(./img/dettagli/2f0073c7e236f38029b99475866d1cf8606f1e7a.png)
+  background: url(/img/dettagli/2f0073c7e236f38029b99475866d1cf8606f1e7a.png)
     no-repeat center;
   background-size: cover;
   z-index: 33;
@@ -314,7 +314,7 @@ button {
   height: 10.19%;
   top: 93.42%;
   left: 3.96%;
-  background: url(./img/dettagli/83065581-30ac-4cbd-9320-6ad1b0497306.png)
+  background: url(/img/dettagli/83065581-30ac-4cbd-9320-6ad1b0497306.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 16;
@@ -435,7 +435,7 @@ button {
   height: 61.39%;
   top: 20.65%;
   left: 60.39%;
-  background: url(./img/dettagli/8f3d14de-493c-450e-8958-12aba73203a9.png)
+  background: url(/img/dettagli/8f3d14de-493c-450e-8958-12aba73203a9.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 24;
@@ -446,7 +446,7 @@ button {
   height: 61.39%;
   top: 20.65%;
   left: 4.56%;
-  background: url(./img/dettagli/2d23b64b-1f61-431d-98a4-a46e69a006cc.png)
+  background: url(/img/dettagli/2d23b64b-1f61-431d-98a4-a46e69a006cc.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 25;
@@ -457,7 +457,7 @@ button {
   height: 61.39%;
   top: 20.65%;
   left: 35.88%;
-  background: url(./img/dettagli/0ce7c0d9-f92a-4f03-a0f1-565f0d20936a.png)
+  background: url(/img/dettagli/0ce7c0d9-f92a-4f03-a0f1-565f0d20936a.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 26;
@@ -646,7 +646,7 @@ button {
   position: relative;
   width: 1242.644px;
   margin: 32px 0 0 0;
-  background: url(./img/dettagli/5e43622f-5930-4dda-ad37-e639aa85ee8b.png)
+  background: url(/img/dettagli/5e43622f-5930-4dda-ad37-e639aa85ee8b.png)
     no-repeat center;
   background-size: cover;
   border: 1px solid #000000;
@@ -801,7 +801,7 @@ button {
   position: relative;
   width: 1920px;
   height: 321px;
-  background-image: url(img/footer/footer.svg);
+  background-image: url(/img/footer/footer.svg);
   background-size: 100% 100%;
 }
 .footer .group-2 {
@@ -922,7 +922,7 @@ button {
   scale: 90%;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(./img/dettagli/backgroundOk.svg)    no-repeat center;
+  background: url(/img/dettagli/backgroundOk.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 100;
   overflow: visible auto;
@@ -952,7 +952,7 @@ button {
   height: 50%;
   top: 9%;
   left: 38%;
-  background: url(./img/dettagli/check.svg)    no-repeat center;
+  background: url(/img/dettagli/check.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 101;
 }
@@ -1021,7 +1021,7 @@ button {
   scale: 90%;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(./img/dettagli/backgroundError.svg)    no-repeat center;
+  background: url(/img/dettagli/backgroundError.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 200;
   overflow: visible auto;
@@ -1051,7 +1051,7 @@ button {
   height: 50%;
   top: 2%;
   left: 38%;
-  background: url(./img/dettagli/error.svg)    no-repeat center;
+  background: url(/img/dettagli/error.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 201;
 }

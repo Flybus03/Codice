@@ -146,7 +146,7 @@ a {
   height: 149px;
   top: 0;
   left: 0;
-  background-image: url(./img/header/rectangle-450.svg);
+  background-image: url(../img/header/rectangle-450.svg);
   background-size: 100% 100%;
 }
 .header .LOGO {

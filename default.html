@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="styles/globals.css" />
+    <link rel="stylesheet" href="styles/home.css" />
   </head>
   <body>
     <div id="home" class="home">
@@ -72,7 +72,7 @@
       </div>
     </div>
 
-    /* FOOTER */
+    <!-- FOOTER -->
     <footer class="footer">
       <div class="overlap-3">
         <div class="group-2">
@@ -99,7 +99,7 @@
       </div>
     </footer>
 
-    /* FORM REGISTRAZIONE */
+    <!-- FORM REGISTRAZIONE -->
     <div class="formRegister" id="formRegister">
       <span class="registrazione">Registrazione</span>
       <btn id="closeRegister" class="close">
@@ -118,21 +118,21 @@
             <div class="user-box"></div>
           </div>
           <div class="data-di-nascita">
-            <input class="data-input" required/><label class="label-data-di-nascita">Data di nascita</label>
+            <input type="date" id="birthdate" class="data-input" required/><label class="label-data-di-nascita">Data di nascita</label>
             <div class="rectangle"></div>
             <div class="group">
               <div class="icon-park-twotone-calendar"></div>
             </div>
           </div>
           <div class="telefono">
-            <input class="telefono-input" required/><label class="label-telefono">Telefono</label>
+            <input type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" class="telefono-input" required/><label class="label-telefono">Telefono</label>
             <div class="rectangle"></div>
             <div class="group-b">
               <div class="icon-park-twotone-phone-telephone"></div>
             </div>
           </div>
           <div class="email">
-            <input class="email-input" required/><label class="label-email">Email</label>
+            <input type="email" class="email-input" required/><label class="label-email">Email</label>
             <div class="rectangle"></div>
             <div class="ic-twotone-mail"></div>
           </div>
@@ -142,7 +142,7 @@
       <button id="openVerificaEmail" class="registrati">Registrati</button>
     </div>
 
-    /* FORM LOGIN */
+    <!-- FORM LOGIN -->
     <div class="wrapperLogin" id="formLogin">
       <span class="h-login">Login</span>
       <btn id="closeLogin" class="close">
@@ -151,26 +151,26 @@
       <div class="formLogin" >
         <form action="#">
           <div class="email">
-            <input class="email-input" required/><label class="label-email">Email</label>
+            <input type="email" class="email-input" required/><label class="label-email">Email</label>
             <div class="rectangle"></div>
             <div class="ic-twotone-mail"></div>
           </div>
           <div class="password">
-            <input class="password-input" required/><label class="label-password">Password</label>
+            <input type="password" class="password-input" required/><label class="label-password">Password</label>
             <div class="rectangle"></div>
             <div class="ic-twotone-lock"></div>
           </div>
         </form>
       </div>
-      /* TODO: aprire la pagine home.html dopo il login */
+      <!-- TODO: aprire la pagine home.html dopo il login -->
       <button id="verifyLogin" class="accedi">Accedi</button>
       <span class="forgot-password">Clicca
-        <span id="forgotPassword" style="color:blue">qui</span> 
+        <span id="forgotPassword" style="color:blue">qui</span>
         per reimpostare la password</span>
       <button class="go-to-register">Registra un nuovo account</button>
     </div>
 
-    /* FORM VERIFICA EMAIL */
+    <!-- FORM VERIFICA EMAIL -->
     <div class="wrapperVerificaEmail" id="verificaEmail">
       <btn id="closeVerificaEmail" class="close">
         <img class="cross" src="img/index/close_ring.svg">
@@ -178,15 +178,15 @@
       <h1 class="verifica-titolo">Verifica email</h1>
       <p class="verifica-testo">
         Ti abbiamo inviato una mail con una
-        <span style="color: blue; font-weight: 800;">password monouso</span>,
+        <span style="color: blue; font-weight: 700;">password monouso</span>,
         usala per verificare la tua mail e compiere il primo accesso.
       </p>
       <button class="verificaAccesso">Primo accesso</button>
     </div>
 
 
-    /* FORM PRIMO LOGIN */
-    /* TODO: sistema sto schifo guarda gli id */
+    <!-- FORM PRIMO LOGIN  -->
+    <!-- TODO: sistema sto schifo guarda gli id -->
     <div class="wrapperPrimoLogin" id="formPrimoLogin">
       <span class="h-primo-login">Primo login</span>
       <p class="primoLogin-testo">
@@ -211,7 +211,7 @@
     </div>
 
 
-    <script src="index.js"></script>
+    <script src="scripts/index.js"></script>
   </body>
 </html>
 

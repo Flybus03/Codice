@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="prenotazione.css" />
+    <link rel="stylesheet" href="styles/globals.css" />
+    <link rel="stylesheet" href="styles/prenotazione.css" />
   </head>
   <body>
     <div class="prenotazione">
@@ -26,38 +26,35 @@
             </header>
           </div>
         </div>
-        TODO: SISTEMA QUESTA MERDA
+        <!-- TODO: SISTEMA QUESTA MERDA -->
         <img class="info-camera" src="img/prenotazione/info-camera-2.png" />
         <img class="info-camera-2" src="img/prenotazione/info-camera-2.png" />
         <img class="info-camera-3" src="img/prenotazione/info-camera-2.png" />
+        
+        <!-- INPUT PER LA PRENOTAZIONE -->
         <div class="selezione">
           <div class="vari-select-wrapper">
             <div class="vari-select">
-              <div class="calendario">
-                <div class="lol">
-                  <div class="overlap-group-2">
-                    <div class="check">Check-out</div>
-                    <img class="mdi-calendar-outline" src="img/prenotazione/mdi-calendar-outline.svg" />
-                  </div>
-                </div>
+              <div class="calendario-out">
+                <input type="date" id="end" class="book-end" required/>
               </div>
-              <div class="lol-wrapper">
-                <div class="lol">
-                  <div class="overlap-group-2">
-                    <div class="check">Check-in</div>
-                    <img class="mdi-calendar-outline" src="img/prenotazione/mdi-calendar-outline.svg" />
-                  </div>
+              <div class="calendario-in">
+                <div class="overlap-group-2">
+                  <input type="date" id="start" class="book-start" required/>
                 </div>
               </div>
               <div class="ospiti">
                 <div class="overlap-2">
-                  <div class="text-wrapper-7">Numero ospiti</div>
                   <img class="ic-twotone-bed" src="img/prenotazione/ic-twotone-bed-2.svg" />
+                  <!-  TODO: verifica che il massimo sia un valore sensato ->
+                  <input type="number" class="num-ospiti" value="1" min="1" max="5" required />
+                  <div class="text-wrapper-7">Numero ospiti</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
         <div class="filtri">
           <div class="tipo-camera">
             <div class="overlap-group-3">
@@ -103,5 +100,7 @@
         <img class="line-2" src="img/footer/line-9.svg" />
       </div>
     </footer>
+
+    <script src="scripts/prenotazione.js"></script>
   </body>
 </html>
