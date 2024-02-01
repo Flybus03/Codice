@@ -1,3 +1,4 @@
+
 :root {
   --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
@@ -21,6 +22,8 @@ button {
   outline: 0;
 }
 
+
+
 .rectangle-header{
   position: absolute;
   width: 100%;
@@ -33,7 +36,7 @@ button {
 
 .main-container {
   position: relative;
-  width: 1920px;
+  width: 100%;
   height: 1109px;
   margin: 0 auto;
   background: #ffffff;
@@ -307,7 +310,7 @@ button {
   overflow: hidden;
   -webkit-text-stroke: 0.5px #14274a;
 }
-.rectangle-f {
+.input-form {
   position: absolute;
   width: 570px;
   height: 318px;
@@ -316,6 +319,10 @@ button {
   background: #ffffff;
   border: 2px solid rgba(20, 39, 74, 0.5);
   z-index: 12;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 30px;
+  font-weight: 400;
+  padding: 12px;
 }
 .sunset-blvd-beverly-hills-ca-e {
   position: absolute;
@@ -348,8 +355,7 @@ button {
   justify-content: center;
   position: absolute;
   width: 359px;
-  height: 100%;
-  top: 448px;
+  height: 5.5%;
   left: 1150px;
   color: #000000;
   font-family: Montserrat, var(--default-font-family);
@@ -365,13 +371,13 @@ button {
 
 .footer {
   position:bottom;
-  width: 1920px;
+  width: 100%;
   height: 321px;
   background-color: transparent;
 }
 .footer .overlap-3 {
   position: relative;
-  width: 1920px;
+  width: 100%;
   height: 321px;
   background-image: url(/img/footer/footer.svg);
   background-size: 100% 100%;
@@ -474,7 +480,7 @@ button {
   width: 1px;
   height: 196px;
   top: 94px;
-  left: 970px;
+  left: 964px;
   object-fit: cover;
 }
 
