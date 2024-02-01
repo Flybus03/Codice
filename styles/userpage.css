@@ -92,23 +92,7 @@ button {
   overflow: hidden;
   margin-bottom: 20px;
 }
-.nome-2 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  width: 895.695px;
-  height: 100%;
-  top: 0;
-  left: 11.46%;
-  color: #474747;
-  font-family: Montserrat, var(--default-font-family);
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 39.008px;
-  text-align: left;
-  z-index: 31;
-}
+
 .rectangle-3 {
   position: absolute;
   width: 100%;
@@ -139,23 +123,6 @@ button {
   overflow: hidden;
   margin-bottom: 20px;
 }
-.cognome-4 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  width: 895.695px;
-  height: 100%;
-  top: 0;
-  left: 11.46%;
-  color: #474747;
-  font-family: Montserrat, var(--default-font-family);
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 39.008px;
-  text-align: left;
-  z-index: 36;
-}
 .rectangle-5 {
   position: absolute;
   width: 100%;
@@ -184,23 +151,6 @@ button {
   height: 104.749px;
   z-index: 38;
   margin-bottom: 20px;
-}
-.data-di-nascita-7 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  width: 895.695px;
-  height: 100%;
-  top: 0;
-  left: 11.46%;
-  color: #474747;
-  font-family: Montserrat, var(--default-font-family);
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 39.008px;
-  text-align: left;
-  z-index: 42;
 }
 .rectangle-8 {
   position: absolute;
@@ -240,23 +190,7 @@ button {
   z-index: 44;
   margin-bottom: 20px;
 }
-.telefono-9 {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  width: 895.695px;
-  height: 100%;
-  top: 0;
-  left: 11.46%;
-  color: #474747;
-  font-family: Montserrat, var(--default-font-family);
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 39.008px;
-  text-align: left;
-  z-index: 49;
-}
+
 .rectangle-a {
   position: absolute;
   width: 100%;
@@ -294,23 +228,7 @@ button {
   height: 104.749px;
   z-index: 52;
 }
-.email-c {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  position: absolute;
-  width: 895.695px;
-  height: 100%;
-  top: 0;
-  left: 11.46%;
-  color: #474747;
-  font-family: Montserrat, var(--default-font-family);
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 39.008px;
-  text-align: left;
-  z-index: 53;
-}
+
 .rectangle-d {
   position: absolute;
   width: 100%;
@@ -943,23 +861,11 @@ button {
   margin-bottom: 20px;
 }
 
-.frame input:focus + label{
-  visibility: hidden;
-}
-.frame input:valid + label{
-  visibility: hidden;
-}
-
-.frame input:empty{
-  opacity: 0;
-}
-
-.frame input:focus{
-  opacity: 1;
-}
-
-.frame input:valid{
-  opacity: 1;
+.input::placeholder{
+  color: #474747;
+  font-family: Montserrat, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 600px){
