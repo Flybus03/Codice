@@ -91,3 +91,65 @@ function closeAllSelect(elmnt) {
 /* If the user clicks anywhere outside the select box,
 then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
+
+
+
+
+/* CODICE PER I FILTRI DELLE CAMERE */
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+
+
+/* TODO: Aggiungere la funzione di ordinamento delle camere */
+
+// Get the camera-select dropdown elements
+var cameraSelects = document.getElementsByClassName("camera-select");
+
+// Loop through each camera-select dropdown
+for (var i = 0; i < cameraSelects.length; i++) {
+  // Add event listener to each camera-select dropdown
+  cameraSelects[i].addEventListener("change", function() {
+    // Get the selected option value
+    var selectedOption = this.value;
+
+    // Get the container element
+    var container = document.getElementsByClassName("container")[0];
+
+    // Get all the items inside the container
+    var items = container.getElementsByClassName("item");
+
+    // Convert the items HTMLCollection to an array for easier manipulation
+    var itemsArray = Array.from(items);
+
+    // Sort the items based on the selected option value
+    itemsArray.sort(function(a, b) {
+      var aValue = a.getAttribute("data-category");
+      var bValue = b.getAttribute("data-category");
+      if (aValue === selectedOption) {
+        return -1;
+      } else if (bValue === selectedOption) {
+        return 1;
+      } else {
+        return 0;
+      }
+    });
+
+    // Clear the container
+    container.innerHTML = "";
+
+    // Append the sorted items back to the container
+    itemsArray.forEach(function(item) {
+      container.appendChild(item);
+    });
+  });
+}
