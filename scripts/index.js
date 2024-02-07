@@ -110,7 +110,7 @@ accediButton.addEventListener('click', (e) => {
     }).then(response => {
         console.log(response);
         if (response.status == 200) {
-            window.location.href = "home.html";
+           // window.location.href = "home.html";
         }
         return response.json();
     }).then(data => {
@@ -162,21 +162,3 @@ registerButton.addEventListener('click', (e) => {
         }
     });
 });
-
-
-
-
-
-
-
-fetch("http://localhost:6060/", {
-  method: "GET",
-  headers: {
-    "Content-Type": "application/json",
-    "Accept": "application/json"
-  }
-}).then(culo => {
-  console.log(culo)
-  return culo.json()
-})
-
