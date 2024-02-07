@@ -108,38 +108,38 @@
       <div class="frame" >
         <form action="#">
           <div class="nome">
-            <input class="nome-input" placeholder="Nome" required/>
+            <input id="regNome" class="nome-input" placeholder="Nome" required/>
             <div class="rectangle"></div>
             <div class="user-box"></div>
           </div>
           <div class="cognome">
-            <input class="cognome-input" placeholder="Cognome" required/>
+            <input id="regCognome" class="cognome-input" placeholder="Cognome" required/>
             <div class="rectangle"></div>
             <div class="user-box"></div>
           </div>
           <div class="data-di-nascita">
-            <input type="text" onfocus="(this.type = 'date')" onblur="(this.type = 'text')" id="birthdate" class="data-input" placeholder="Data di nascita" required/>
+            <input id="regBirthdate" type="text" onfocus="(this.type = 'date')" onblur="(this.type = 'text')"  class="data-input" placeholder="Data di nascita" required/>
             <div class="rectangle"></div>
             <div class="group">
               <div class="icon-park-twotone-calendar"></div>
             </div>
           </div>
           <div class="telefono">
-            <input type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" class="telefono-input" placeholder="Telefono" required/>
+            <input id="regTelephone" type="tel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" class="telefono-input" placeholder="Telefono" required/>
             <div class="rectangle"></div>
             <div class="group-b">
               <div class="icon-park-twotone-phone-telephone"></div>
             </div>
           </div>
           <div class="email">
-            <input type="email" class="email-input" placeholder="Email" required/>
+            <input id="regEmail" type="email" class="email-input" placeholder="Email" required/>
             <div class="rectangle"></div>
             <div class="ic-twotone-mail"></div>
           </div>
         </form>
       </div>
       <button class="goBack" id="goToLogin">Già iscritto? Clicca qui</button>
-      <button id="openVerificaEmail" class="registrati">Registrati</button>
+      <button id="registerButton" class="registrati">Registrati</button>
     </div>
 
     <!-- FORM LOGIN -->
@@ -151,12 +151,12 @@
       <div class="formLogin" >
         <form action="#">
           <div class="email">
-            <input type="email" class="email-input" placeholder="Email" required/>
+            <input id="email" type="email" class="email-input" placeholder="Email" required/>
             <div class="rectangle"></div>
             <div class="ic-twotone-mail"></div>
           </div>
           <div class="password">
-            <input type="password" class="password-input" placeholder="Password" required/>
+            <input id="password" type="password" class="password-input" placeholder="Password" required/>
             <div class="rectangle"></div>
             <div class="ic-twotone-lock"></div>
           </div>
@@ -171,7 +171,7 @@
     </div>
 
     <!-- FORM VERIFICA EMAIL -->
-    <div class="wrapperVerificaEmail" id="verificaEmail">
+    <div id="verificaMail" class="wrapperVerificaEmail">
       <h1 class="verifica-titolo">Verifica email</h1>
       <p class="verifica-testo">
         Ti abbiamo inviato una mail con una

@@ -22,7 +22,7 @@
   position: relative;
   width: 100%;
   height: 321px;
-  background-image: url(/img/footer/footer.svg);
+  background-image: url(../img/footer/footer.svg);
   background-size: 100% 100%;
 }
 .footer .group-2 {
@@ -383,7 +383,7 @@
   height: 1080px;
   top: 0;
   left: 0;
-  background-image: url(/img/index/immagine-home.png);
+  background-image: url(../img/index/immagine-home.png);
   background-size: 100% 100%;
 }
 
@@ -574,7 +574,7 @@
   scale: 90%;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(/img/userpage/Riquadro.svg)    no-repeat center;
+  background: url(../img/userpage/Riquadro.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 16;
   overflow: visible auto;
@@ -647,7 +647,7 @@
   height: 64.94%;
   top: 18.18%;
   left: 1.98%;
-  background: url(/img/userpage/user.png)
+  background: url(../img/userpage/user.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 30;
@@ -688,7 +688,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url(/img/userpage/28148db3-b5b5-4483-8aba-c251ef8d67b3.png)
+  background: url(../img/userpage/28148db3-b5b5-4483-8aba-c251ef8d67b3.png)
     no-repeat center;
   background-size: cover;
   z-index: 41;
@@ -718,7 +718,7 @@
   height: 110%;
   top: 0;
   left: 0;
-  background: url(/img/userpage/da1ccf58-4dcf-44f6-8b28-cef60740e7e8.png)
+  background: url(../img/userpage/da1ccf58-4dcf-44f6-8b28-cef60740e7e8.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 47;
@@ -739,7 +739,7 @@
   height: 68.47%;
   top: 16.67%;
   left: 2.13%;
-  background: url(/img/userpage/2a28e04a-9ee5-4d04-9e63-1f2236d29557.png)
+  background: url(../img/userpage/2a28e04a-9ee5-4d04-9e63-1f2236d29557.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 54;
@@ -914,7 +914,7 @@
   scale: 90%;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(/img/index/login.svg)    no-repeat center;
+  background: url(../img/index/login.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 16;
   overflow: visible auto;
@@ -995,7 +995,7 @@
   height: 68.47%;
   top: 16.67%;
   left: 2.13%;
-  background: url(/img/userpage/2a28e04a-9ee5-4d04-9e63-1f2236d29557.png)
+  background: url(../img/userpage/2a28e04a-9ee5-4d04-9e63-1f2236d29557.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 30;
@@ -1043,7 +1043,7 @@
   height: 64.94%;
   top: 18.18%;
   left: 1.98%;
-  background: url(/img/index/lock.svg)
+  background: url(../img/index/lock.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 30;
@@ -1159,7 +1159,7 @@
   scale: 90%;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(/img/index/login.svg)    no-repeat center;
+  background: url(../img/index/login.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 16;
   overflow: visible auto;
@@ -1286,7 +1286,7 @@
   scale: 90%;
   margin: 51px 0 0 331px;
   font-size: 0px;
-  background: url(/img/index/login.svg)    no-repeat center;
+  background: url(../img/index/login.svg)    no-repeat center;
   background-size: 100% 100%;
   z-index: 16;
   overflow: visible auto;
@@ -1387,7 +1387,7 @@
   height: 64.94%;
   top: 18.18%;
   left: 1.98%;
-  background: url(/img/index/lock.svg)
+  background: url(../img/index/lock.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 30;
@@ -1423,7 +1423,7 @@
   height: 64.94%;
   top: 18.18%;
   left: 1.98%;
-  background: url(/img/index/lock.svg)
+  background: url(../img/index/lock.svg)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 30;
