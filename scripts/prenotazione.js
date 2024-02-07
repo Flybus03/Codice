@@ -93,6 +93,8 @@ then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
 
 
+
+/* Funzione per lo slideshow */
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -121,3 +123,5 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+

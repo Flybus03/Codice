@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="styles/dettagli.css" />
     <link rel="stylesheet" href="styles/globals.css" />
   </head>
-  <body>
-    <div class="main-container">
+  <body id="body">
+    <div id="home" class="main-container">
       <div class="rectangle-header">
         <header class="header">
           <div class="testo-header">
@@ -20,7 +20,7 @@
                 <li><a href="userpage.html" class="text-wrapper-area-personale">Area personale</a></li>
             </div>
             <div class="LOGO-wrapper">
-              <div class="LOGO"><div class="text-wrapper-LOGO">LOGO</div></div>
+              <img class="LOGO" src="img/LOGO.png"/>
             </div>
           </div>
         </header>
@@ -39,7 +39,7 @@
           <div class="hotel-california"></div>
           <span class="data-check-in">Data check in: _ </span
           ><span class="data-check-out">Data check out: _</span>
-          <button class="modifica-arrow"></button>
+          <a href="prenotazione.html"><button class="modifica-arrow"></button></a>
           <span class="modifica">Modifica</span
           ><span class="soggiorno-totale">Soggiorno totale: _</span>
         </div>
@@ -65,7 +65,7 @@
         </div>
       </div>
       <div class="flex-row-b">
-        <button class="aggiungi-una-camera">+ Aggiungi una camera</button>
+        <a href="prenotazione.html"><button class="aggiungi-una-camera">+ Aggiungi una camera</button></a>
       </div>
       <div class="flex-row-d">
         <span class="riepilogo-prezzi">Riepilogo prezzi</span>
@@ -82,8 +82,8 @@
         </div>
       </div>
       <div class="flex-row-dfd">
-        <button class="conferma-prenotazione">Conferma prenotazione</button
-        ><button class="cancella-prenotazione">Cancella prenotazione</button>
+        <button id="checkBook" class="conferma-prenotazione">Conferma prenotazione</button>
+        <button id="errore" class="cancella-prenotazione">Cancella prenotazione</button>
       </div>
     </div>
     <footer class="footer">
@@ -113,10 +113,10 @@
     </footer>
 
     <!-- PRENOTAZIONE EFFETTUATA -->
-    <div class="prenotazioneEffettuata" id="prenotazioneEffettuata ">
+    <div class="prenotazioneEffettuata" id="prenotazioneOK">
       <div class="check" ></div>
       <h1 class="titolo">Prenotazione effettuata<br/>con successo</h1>
-      <button class="ok">OK</button>
+      <button id="ok1" class="ok">OK</button>
     </div>
 
     <!-- ERRORE PRENOTAZIONE -->
@@ -129,8 +129,9 @@
         Se l'errore sussiste si prega di contattare lo staff nell'apposita sezione
         (Tanto non risponde nessuno)
       </p>
-      <button class="ok">OK</button>
+      <button id="ok2" class="ok">OK</button>
     </div>
 
+    <script src="scripts/dettagli.js"></script>
   </body>
 </html>

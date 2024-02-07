@@ -64,7 +64,7 @@ button {
   height: 60.1%;
   top: 0;
   right: 1451px;
-  background: url(/img/contattaci/06cd20e5-d2c6-47f6-b11d-7bdf4b73bb24.png)
+  background: url(../img/contattaci/06cd20e5-d2c6-47f6-b11d-7bdf4b73bb24.png)
     no-repeat center;
   background-size: cover;
   z-index: 29;
@@ -168,7 +168,7 @@ button {
   height: 0px;
   top: 100px;
   left: 1303px;
-  background: url(/img/contattaci/a02e458e-471d-48aa-837e-b21dc396b45c.png)
+  background: url(../img/contattaci/a02e458e-471d-48aa-837e-b21dc396b45c.png)
     no-repeat center;
   background-size: cover;
   border: 2px solid #ffffff;
@@ -238,7 +238,7 @@ button {
   position: relative;
   width: 145px;
   height: 61px;
-  background: url(/img/contattaci/b52e199b-dbab-45da-8ba8-a478489a8f0a.png)
+  background: url(../img/contattaci/b52e199b-dbab-45da-8ba8-a478489a8f0a.png)
     no-repeat center;
   background-size: cover;
   z-index: 7;
@@ -379,7 +379,7 @@ button {
   position: relative;
   width: 100%;
   height: 321px;
-  background-image: url(/img/footer/footer.svg);
+  background-image: url(../img/footer/footer.svg);
   background-size: 100% 100%;
 }
 .footer .group-2 {
@@ -465,7 +465,7 @@ button {
 .footer .text-wrapper-5 {
   position: absolute;
   width: 220px;
-  top: 120px;
+  top: 110px;
   left: 1087px;
   font-family: "Montserrat", Helvetica;
   font-weight: 400;

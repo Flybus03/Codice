@@ -20,7 +20,7 @@ const openFirstLogin = document.getElementById('openFirstLogin');
 
 const forgotPassword = document.getElementById('forgotPassword');
 
-const goToPrenota = document.getElementById('goToPrenota');
+const primoLoginButton = document.getElementById('primoLoginButton');
 
 openRegister.addEventListener('click', () => {
     formRegister.classList.add('show');
@@ -45,18 +45,11 @@ closeLogin.addEventListener('click', () => {
     home.classList.remove('blur');
     body.classList.remove('overflow-hidden');
 });
-/*
-openVerificaEmail.addEventListener('click', () => {
-    verificaEmail.classList.add('show');
-    formRegister.classList.remove('show');
-    home.classList.add('blur');
-    body.classList.add('overflow-hidden');
-});*/
 
-/* TODO: questo si apre dopo che l'utente ha confermato la mail inserendo la password temporanea*/
+
 openFirstLogin.addEventListener('click', () => {
-    verificaEmail.classList.remove('show');
-    formLogin.classList.add('show');
+    verificaMail.classList.remove('show');
+    formPrimoLogin.classList.add('show');
     home.classList.add('blur');
     body.classList.add('overflow-hidden');
 });
@@ -81,10 +74,17 @@ goToRegister.addEventListener('click', () => {
     formRegister.classList.add('show');
 });
 
-/* TODO: sistema il recupero della password */
+primoLoginButton.addEventListener('click', () => {
+    formPrimoLogin.classList.remove('show');
+    home.classList.remove('blur');
+    body.classList.remove('overflow-hidden');
+    window.location.href = "home.html";
+});
+
+
 forgotPassword.addEventListener('click', () => {
     formLogin.classList.remove('show');
-    verificaEmail.classList.add('show');
+    formPrimoLogin.classList.add('show');
 });
 
 /* LOGIN */
@@ -109,9 +109,6 @@ accediButton.addEventListener('click', (e) => {
         body: JSON.stringify(data)
     }).then(response => {
         console.log(response);
-        if (response.status == 200) {
-           // window.location.href = "home.html";
-        }
         return response.json();
     }).then(data => {
         console.log(data);
@@ -119,6 +116,7 @@ accediButton.addEventListener('click', (e) => {
             alert(data.error);
         }
     });
+    window.location.href = "home.html";
 });
 
 
@@ -156,9 +154,9 @@ registerButton.addEventListener('click', (e) => {
         console.log(data);
         if (data.error) {
             alert(data.error);
-        } else {
-            verificaMail.classList.add('show');
-            formRegister.classList.remove('show');
         }
     });
+    verificaMail.classList.add('show');
+    formRegister.classList.remove('show');
 });
+

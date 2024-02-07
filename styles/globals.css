@@ -150,10 +150,9 @@ a {
 }
 .header .LOGO {
   position: relative;
-  width: 154px;
-  height: 54px;
-  top: 44px;
-  left: 41px;
+  width: 100%;
+  height: 130%;
+  top: -15%;
 }
 .header .text-wrapper-LOGO {
   position: absolute;
